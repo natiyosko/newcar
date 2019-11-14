@@ -1,0 +1,16 @@
+
+<h1 class="listt">Welcome to the LUXURY cars</h1>
+
+<div class="flex">
+    <div class="list">
+        <h1>our luxury list</h1>
+        <ul>
+            <li *ngFor="let b of beastsSvc.beasts"><h2> {{ b.name }}</h2></li>
+        </ul>
+    </div>
+
+
+    <div class="cardss" *ngIf="beastsSvc.currentBeast">
+        <app-beast-card></app-beast-card>
+    </div>
+</div>

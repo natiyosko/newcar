@@ -1,0 +1,15 @@
+
+<h1 class="listt">Welcome to the SPORTS cars</h1>
+<div class="flex">
+    <div class="list">
+        <h1>our cars list</h1>
+        <ul>
+            <li *ngFor="let b of birdsSvc.birds"> <h2>{{ b.name }} </h2></li>
+        </ul>
+    </div>
+
+
+    <div class="cardss">
+        <app-bird-card></app-bird-card>
+    </div>
+</div>

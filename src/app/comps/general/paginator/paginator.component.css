@@ -1,0 +1,12 @@
+img{width: 10vw;}
+
+.flex{
+    width: 30vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.revers{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

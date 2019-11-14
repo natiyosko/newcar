@@ -1,0 +1,25 @@
+
+.flex{
+  
+    display: flex;
+   justify-content: space-around;
+}
+.listt{
+    display: flex;
+   justify-content: space-around;
+    color: red;
+    display: flex;
+    text-align: center;
+   
+}
+.cardss{
+display: inline-block;
+width: 49%;
+}
+.list{
+    display: inline-block;
+    width: 49%;
+}
+h2{
+    size: 50px;
+}
